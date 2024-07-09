@@ -9,23 +9,18 @@
 	text-align: center;
 }
 .div2{
-	padding-top: 100px;
 	background-color: indianred;
-	text-align: center;
+	padding-top: 20px;
 }
-a{
+.link{
 	color:white;
 	margin-left: 10px;
 	text-align: justify;
 	padding: 10px 20px;
-	margin-left: 10px;
 	text-decoration: none;
 	border-radius: 5px;
 	transition: background-color 0.3s ease;
 }
 .div2 a:hover {
 	background-color: #777;
-}
-.p{
-	color: green;
 }
