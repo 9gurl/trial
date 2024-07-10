@@ -5,8 +5,8 @@
 }
 .div1, .div2{
 	width: 100%;
-	padding-bottom: 100%;
 	text-align: center;
+	height: 100vh;
 }
 .div2{
 	background-color: indianred;
@@ -19,8 +19,38 @@
 	padding: 10px 20px;
 	text-decoration: none;
 	border-radius: 5px;
-	transition: background-color 0.3s ease;
+	margin: 30px 0 0 0;
+	position: relative;
+	top: 50px;
+	/* margin: 0 10px; */
 }
 .div2 a:hover {
 	background-color: #777;
+}
+
+/* For about page` */
+.about-me-navigation{
+	display: flex;
+	justify-content: end;
+}
+.about-me-navigation a{
+		margin-right: 30px;
+		margin-top: 20px;
+		text-decoration: none;
+		border: 1px solid rgb(173, 61, 61);
+		color: rgb(9, 117, 54);
+		padding: 5px 20px;
+}
+.left, .right{
+	width: 50%;;
+}
+.img-circle{
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+}
+.img-circle img{
+	width: 200px;
+	border: 10px solid rgb(175, 178, 10);
+	border-radius: 360px;
 }
