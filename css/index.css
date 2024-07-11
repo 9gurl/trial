@@ -47,10 +47,15 @@
 .img-circle{
 	display: flex;
 	justify-content: center;
-	border: 1px solid black;
 }
 .img-circle img{
 	width: 200px;
 	border: 10px solid rgb(175, 178, 10);
 	border-radius: 360px;
+}
+.left{
+	padding: 10px 50px;
+}
+.contact-details{
+	padding:10px 30px;
 }
