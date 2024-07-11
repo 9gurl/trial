@@ -56,6 +56,18 @@
 .left{
 	padding: 10px 50px;
 }
+.right{
+	border: 1px solid black;
+}
 .contact-details{
-	padding:10px 30px;
+	display: flex;
+	justify-content: center;
+}
+.about-sub-detail{
+	width: 70%;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: black;
+	color:aliceblue;
+	margin-top: 10px;
 }
