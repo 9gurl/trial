@@ -1,0 +1,9 @@
+.nav-item .active{
+	border-bottom:2px solid #FFDE4D!important;
+}
+.nav-item a:hover{
+	background-color: #F3FEB8;
+}
+.my-img-div{
+	height: 80vh;
+}
